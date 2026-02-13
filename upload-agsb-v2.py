@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "xuhaitao"         # 用户名
 UUID = "81a9ad68-ae91-463d-9e0f-46880c7ed27c"                     # UUID，留空则自动生成
-PORT = 8888                   # Vmess端口，留空或0则自动生成
+PORT = 49999                   # Vmess端口，留空或0则自动生成
 DOMAIN = "hhzx.eu.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiNzYxMmQ2ZGU5NDY4NzUwYjEzNTk5NjFlZTg5M2ZlOTkiLCJ0IjoiYTU2MmYzMjMtMmEzNC00MzBhLWI1OTQtNTNhMTk2YTA0OGNiIiwicyI6Ik1qY3pOR00wWVdFdE1qUm1PQzAwTmpJMkxUaGhZalF0WVdaalpUQTFNMll5TWpSaCJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+CF_TOKEN = "eyJhIjoiNzYxMmQ2ZGU5NDY4NzUwYjEzNTk5NjFlZTg5M2ZlOTkiLCJ0IjoiZDVlYzY0OTEtNjUzMi00ZjU0LWE2MmQtZTFjNzg0NTc3YWY5IiwicyI6IlptTTNNRFEwWVdVdE5tSXdZaTAwTlRBeExUZ3hObUV0TTJJek5tRTFNelV4WVRnNSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
